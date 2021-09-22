@@ -23,5 +23,6 @@ module.exports = {
     'import/no-unresolved': 'off',
     'react/prefer-stateless-function': 'off',
     'jsx-a11y/anchor-is-valid': 'off',
+    'react/prop-types': 'off',
   },
 };
