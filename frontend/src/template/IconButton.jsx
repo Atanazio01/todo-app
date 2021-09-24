@@ -1,7 +1,8 @@
 import React from 'react';
+import If from './If';
 
 export default (props) => (
-  props.hide ? null : (
+  <If test={!props.hide}>
     <button
       className={`btn btn-${props.style}`}
       type="button"
@@ -9,5 +10,5 @@ export default (props) => (
     >
       <i className={`fa fa-${props.icon}`} />
     </button>
-  )
+  </If>
 );
