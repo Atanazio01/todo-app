@@ -24,5 +24,9 @@ module.exports = {
     'react/prefer-stateless-function': 'off',
     'jsx-a11y/anchor-is-valid': 'off',
     'react/prop-types': 'off',
+    'class-methods-use-this': 'off',
+    'react/destructuring-assignment': 'off',
+    'no-unused-expressions': 'off',
+    'react/style-prop-object': 'off',
   },
 };
