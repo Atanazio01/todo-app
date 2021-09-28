@@ -28,5 +28,6 @@ module.exports = {
     'react/destructuring-assignment': 'off',
     'no-unused-expressions': 'off',
     'react/style-prop-object': 'off',
+    'react/no-access-state-in-setstate': 'off',
   },
 };
