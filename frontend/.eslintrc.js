@@ -29,5 +29,6 @@ module.exports = {
     'no-unused-expressions': 'off',
     'react/style-prop-object': 'off',
     'react/no-access-state-in-setstate': 'off',
+    'no-underscore-dangle': 'off',
   },
 };
